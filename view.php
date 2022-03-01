@@ -111,32 +111,32 @@ if(is_post_request()) {
                         <form class="row clearfix" method="post" action="#" >
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
+                                    <input required type="text" class="form-control" id="fullname" name="fullname" placeholder="Full Name">
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="nickname" name="nickname" placeholder="Nickname">
+                                    <input required type="text" class="form-control" id="nickname" name="nickname" placeholder="Nickname">
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                                    <input required type="date" class="form-control" id="date" name="date" placeholder="Date">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <textarea rows="2" class="form-control no-resize" id="hobbies" name="hobbies" placeholder="Hobbies"></textarea>
+                                    <textarea required rows="2" class="form-control no-resize" id="hobbies" name="hobbies" placeholder="Hobbies"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <textarea rows="2" class="form-control no-resize" id="interest" name="interest" placeholder="Interest"></textarea>
+                                    <textarea required rows="2" class="form-control no-resize" id="interest" name="interest" placeholder="Interest"></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <textarea rows="4" class="form-control no-resize" id="comment" name="comment" placeholder="Please type what you want..."></textarea>
+                                    <textarea  required rows="4" class="form-control no-resize" id="comment" name="comment" placeholder="Please type what you want..."></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-block btn-primary">SUBMIT</button>
                             </div>
