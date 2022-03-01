@@ -61,7 +61,7 @@ if(is_post_request()) {
                                        <div class="row">
                                            <div class="col-md-12">
                                                <div class="form-group">
-                                                   <h5 class="m-b-0"><?php echo h(ucfirst($vis['fullname'])); ?> <span class="font-italic text-lowercase">(<?php echo h(($vis['fullname'])); ?>)</span> </h5>
+                                                   <h5 class="m-b-0"><?php echo h(ucfirst($vis['fullname'])); ?> <span class="font-italic text-lowercase">(<?php echo h(($vis['nickname'])); ?>)</span> </h5>
                                                </div>
                                            </div>
                                        </div>
